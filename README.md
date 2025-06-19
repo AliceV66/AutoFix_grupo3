@@ -9,6 +9,26 @@ Paulina R Un área para realizar el pago en línea.
 Jasmin Dar el marco general HTML
 
 Leonardo README
+----------------------------------------------------------------------------------
+# estructura de los ficheros 
+
+### autofix/
+│
+├── 📂 assets/
+│   ├── 📂 css/
+│   │   └── styles.css
+│   ├── 📂 js/
+│   │   └── main.js
+│   └── 📂 images/
+│       ├── logo.png
+│       └── icon-oil.svg
+│
+├── 📄 index.html
+├── 📄 servicios.html
+├── 📄 citas.html
+├── 📄 pagos.html
+├── 📄 formularios.html
+└── 📄 README.md
 
 ----------------------------------------------------------------------------------
 
