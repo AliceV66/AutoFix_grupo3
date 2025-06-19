@@ -47,11 +47,11 @@ Asegúrate de tener instalado [Git](https://git-scm.com/downloads) en tu computa
 
 ------------------------------------------------------------------------------------
 
-### Guía Rápida de Git y GitHub para Principiantes
+# Guía Rápida de Git y GitHub para Principiantes
 Sigue estos pasos en orden para tener todo listo y empezar a contribuir.
 
-Fase 1: Configuración Inicial (Solo se hace una vez)
-Paso 1: Instalar Git en tu computadora
+### Fase 1: Configuración Inicial (Solo se hace una vez)
+## Paso 1: Instalar Git en tu computadora
 
 Si aún no lo tienes, descarga e instala Git desde su página oficial. Es un programa gratuito.
 
@@ -59,17 +59,17 @@ Si aún no lo tienes, descarga e instala Git desde su página oficial. Es un pro
 
 Durante la instalación, puedes dejar todas las opciones por defecto.
 
-Paso 2: Presentarte ante Git
+## Paso 2: Presentarte ante Git
 
 Abre tu terminal (o "Git Bash" si estás en Windows) y preséntate. Git usará esta información para firmar cada cambio que hagas.
 
-# Reemplaza "Tu Nombre" con tu nombre real
+Reemplaza "Tu Nombre" con tu nombre real
 git config --global user.name "Tu Nombre"
 
-# Reemplaza "tu.email@example.com" con tu email (el mismo que usas en GitHub)
+Reemplaza "tu.email@example.com" con tu email (el mismo que usas en GitHub)
 git config --global user.email "tu.email@example.com"
 
-Paso 3: Clonar el Repositorio (Traer el proyecto a tu PC)
+## Paso 3: Clonar el Repositorio (Traer el proyecto a tu PC)
 
 "Clonar" significa crear una copia local del proyecto que está en GitHub.
 
@@ -81,68 +81,68 @@ Copia la URL que aparece en la pestaña HTTPS.
 
 En tu terminal, navega a la carpeta donde guardas tus proyectos (ej: cd Documents/Proyectos) y ejecuta el siguiente comando:
 
-# Pega la URL que copiaste de GitHub
+Pega la URL que copiaste de GitHub
 git clone https://github.com/AliceV66/AutoFix_grupo3.git
 
 Ahora, entra a la carpeta que se acaba de crear:
 
-# Reemplaza "AutoFix_grupo3" con el nombre exacto de la carpeta
+Reemplaza "AutoFix_grupo3" con el nombre exacto de la carpeta
 cd AutoFix_grupo3
 
 ¡Felicidades! Ya tienes el proyecto en tu computadora.
 
-Fase 2: El Ciclo de Trabajo (Lo que harás cada día)
+### Fase 2: El Ciclo de Trabajo (Lo que harás cada día)
 Imagina que tu tarea es añadir una nueva sección de "Testimonios" a la página. Este es el proceso que seguirías:
 
-Paso 4: Sincronizar tu Repositorio Local
+## Paso 4: Sincronizar tu Repositorio Local
 
 ¡Este es el paso más importante! Antes de empezar a escribir una sola línea de código, asegúrate de tener la versión más reciente del proyecto para evitar conflictos con los cambios de tus compañeros.
 
-# 1. Asegúrate de estar en la rama principal
+1. Asegúrate de estar en la rama principal
 git checkout main
 
-# 2. Descarga todos los cambios de GitHub a tu PC
+2. Descarga todos los cambios de GitHub a tu PC
 git pull origin main
 
-Paso 5: Crear una Rama (Tu espacio de trabajo seguro)
+## Paso 5: Crear una Rama (Tu espacio de trabajo seguro)
 
 Una "rama" (branch) es como una copia del proyecto donde puedes hacer cambios de forma segura sin afectar la versión principal (main).
 
-# Crea una nueva rama y muévete a ella. Nómbrala según la tarea que vas a realizar.
+Crea una nueva rama y muévete a ella. Nómbrala según la tarea que vas a realizar.
 git checkout -b feature/seccion-testimonios
 
 Tip: Nombra tus ramas de forma descriptiva. Usa feature/ para nuevas funcionalidades y fix/ para corregir errores.
 
-Paso 6: ¡A programar! (La parte divertida)
+## Paso 6: ¡A programar! (La parte divertida)
 
 Abre la carpeta del proyecto en tu editor de código (como Visual Studio Code) y haz todos los cambios necesarios en los archivos index.html , estilos.css , etc. Para crear la nueva sección de testimonios.
 
-Paso 7: Revisar y Preparar tus Cambios
+## Paso 7: Revisar y Preparar tus Cambios
 
 Una vez que hayas hecho algunos avances, es hora de decirle a Git qué cambios quieres guardar.
 
-# 1. Revisa qué archivos has modificado (este comando es solo para ver, no cambia nada)
+1. Revisa qué archivos has modificado (este comando es solo para ver, no cambia nada)
 git status
 
-# 2. Agrega los archivos que quieres guardar al "área de preparación" (staging area).
-# El punto "." significa "todos los archivos que he modificado".
+2. Agrega los archivos que quieres guardar al "área de preparación" (staging area).
+El punto "." significa "todos los archivos que he modificado".
 git add .
 
-Paso 8: Guardar tus Cambios (Hacer un "Commit")
+## Paso 8: Guardar tus Cambios (Hacer un "Commit")
 
 Un "commit" es como un punto de guardado permanente en tu máquina. Cada commit debe tener un mensaje que describa qué hiciste.
 
-# Guarda los archivos que preparaste en el paso anterior con un mensaje descriptivo
+Guarda los archivos que preparaste en el paso anterior con un mensaje descriptivo
 git commit -m "feat: Añade la sección de testimonios en la página principal"
 
-Paso 9: Subir tu Rama a GitHub
+## Paso 9: Subir tu Rama a GitHub
 
 Ahora, envía tu rama (con todos los commits que hiciste) desde tu computadora a GitHub para que el equipo pueda ver tu trabajo.
 
-# Reemplaza "feature/seccion-testimonios" con el nombre de tu rama
+Reemplaza "feature/seccion-testimonios" con el nombre de tu rama
 git push origin feature/seccion-testimonios
 
-Paso 10: Crear un "Pull Request" (Proponer tus cambios)
+## Paso 10: Crear un "Pull Request" (Proponer tus cambios)
 
 El último paso se hace en la página de GitHub. Un "Pull Request" (PR) es una solicitud formal para que tus cambios se incorporen a la rama principal (main).
 
