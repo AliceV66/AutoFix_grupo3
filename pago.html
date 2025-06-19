@@ -10,18 +10,17 @@
 <body>
     <h1>Información de Pago</h1>
     <form action="/pago" method="post">
-        <div class="formpago">>
+        <div class="formpago">
             <label for="tarjeta" class="tarjeta">Número de Tarjeta</label>
-            <input type="number" class="PAN" id="tarjeta" placeholder="1234 5678 1234 5678" required>
+            <input type="card" class="PAN" id="tarjeta" placeholder="1234 5678 1234 5678" required>
         </div>
         <div class="formpago">
-            <label for="titular" class="form-label">Email address</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="titular" class="form-label">Nombre del Titular</label>
+            <input type="name" class="titular" id="nombre" placeholder="Juana de Arco">
         </div>
         <div class="formpago">
             <label for="CVV" class="form-label">CVV</label>
             <input type="number" class="CVV" id="CVV" placeholder="123" required>
         </div>
-        <button type="submit">Enviar</button>
-</body>
+        <button type="button" class="btn btn-success">Success</button>
 </html>
