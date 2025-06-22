@@ -1,7 +1,5 @@
 # AutoFix - Reparación de Vehículos a Domicilio 
 
-![AutoFix Hero Image](https://placehold.co/800x400/343a40/ffffff?text=AutoFix+WebApp&font=poppins)
-
 ## Tabla de Contenidos
 1. [Descripción del Proyecto](#descripción-del-proyecto-️)
 2. [Características Principales](#características-principales-)
