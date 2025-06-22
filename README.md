@@ -1,12 +1,12 @@
 # AutoFix - Reparación de Vehículos a Domicilio 
 
 ## Tabla de Contenidos
-1. [Descripción del Proyecto](#descripción-del-proyecto-️)
-2. [Características Principales](#características-principales-)
-3. [Tecnologías Utilizadas](#tecnologías-utilizadas-)
-4. [Cómo Empezar](#cómo-empezar-)
-5. [Flujo de Trabajo para Colaboradores](#flujo-de-trabajo-para-colaboradores-)
-6. [El Equipo](#el-equipo-)
+1. [Descripción del Proyecto]
+2. [Características Principales]
+3. [Tecnologías Utilizadas]
+4. [Cómo Empezar]
+5. [Flujo de Trabajo para Colaboradores]
+6. [El Equipo]
 
 ---
 
@@ -38,7 +38,7 @@ Para obtener una copia local del proyecto y empezar a trabajar, sigue estos senc
 1.  **Clona el repositorio**
     Abre tu terminal y ejecuta el siguiente comando:
     ```bash
-    git clone [https://github.com/AliceV66/AutoFix_grupo3.git](https://github.com/AliceV66/AutoFix_grupo3.git)
+    git clone https://github.com/AliceV66/AutoFix_grupo3.git
     ```
 
 2.  **Navega a la carpeta del proyecto**
