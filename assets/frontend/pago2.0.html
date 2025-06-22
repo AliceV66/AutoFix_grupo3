@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-1q8d6b7e4f2a5c9b6f8c7d8e4f2a5c9b6f8c7d8e4f2a5c9b6f8c7d8e4f2a5c9b" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                AutoFix
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Servicios y Precios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="citas.html">Agendar Cita</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pago2.0.html">Pagar en Línea</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main class="flex-grow-1 d-flex flex-column align-items-center justify-content-center" style="padding-bottom: 2rem;">
+    <h1 class="mb-4 text-center display-5 fw-bold text-dark">Registro de Pago</h1>
+    <form action="/pago" method="post" class="w-100 d-flex flex-column align-items-center" style="max-width: 400px; margin-bottom: 2rem;">
+        <div class="mb-3 w-100">
+            <label for="tarjeta" class="form-label">Número de Tarjeta</label>
+            <input type="text" class="form-control" id="tarjeta" name="tarjeta" placeholder="1234 5678 1234 5678" inputmode="numeric" pattern="[0-9 ]{19,}" required>
+        </div>
+        <div class="mb-3 w-100">
+            <label for="nombre" class="form-label">Nombre del Titular</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Juana de Arco" required>
+        </div>
+        <div class="mb-3 w-100">
+            <label for="CVV" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="CVV" name="CVV" placeholder="123" maxlength="4" inputmode="numeric" required>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Pagar</button>
+    </form>
+</main>
+    <footer class="site-footer bg-dark text-white text-center py-4 mt-auto" style="margin-top:auto;">
+    <div class="container">
+        <p class="mb-1">&copy; 2025 AutoFix. Todos los derechos reservados.</p>
+        <p class="mb-0">Proyecto desarrollado por: <span class="fw-bold">Leonardo, Eduardo, Paulina R., Paulina H., Carlos, Jasmin.</span></p>
+    </div>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-1q8d6b7e4f2a5c9b6f8c7d8e4f2a5c9b6f8c7d8e4f2a5c9b6f8c7d8e4f2a5c9b" crossorigin="anonymous"></script>    
+</body>
+</html>
