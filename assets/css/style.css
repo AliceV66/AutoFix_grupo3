@@ -53,8 +53,9 @@ h1, h2, h3, h4, h5, h6 {
    HERO SECTION (index.html)
    ================================= */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1920x1080/343a40/ffffff?text=Imagen+de+Taller') no-repeat center center;
-    background-size: cover;
+    /* CORRECCIÓN FINAL: Eliminamos completamente el background. 
+       El fondo ahora será el color de la página (var(--color-light) o blanco). */
+    background: none; 
 }
 
 /* =================================
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =================================
-   ESTILOS PARA 'Servicios y Precios.html'
+   ESTILOS PARA 'servicios_precios.html'
    ================================= */
 .service-card {
     transition: transform 0.3s, box-shadow 0.3s;
